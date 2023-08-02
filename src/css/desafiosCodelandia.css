@@ -1,0 +1,22 @@
+
+.desafios_codelandia section{
+    margin-top: 5%;
+}
+
+.desafios_codelandia header{
+    height: auto;
+
+}
+
+.desafios_codelandia h1{
+    margin-bottom: 5%;
+}
+
+.desafios_codelandia p a{
+    color: #b9bec9;
+}
+
+.desafios_codelandia p a:hover{
+    color: #ffffff;
+
+}

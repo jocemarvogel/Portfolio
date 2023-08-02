@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.apresentacao{
+    margin: 0px;
+}
+
+.imagemperfil{
+    width: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    filter: grayscale(75%);
+}
+
+.apresentacao h1{
+    margin-bottom: 0;
+}
