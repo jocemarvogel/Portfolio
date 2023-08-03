@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Rubik:wght@900&display=swap');
 
 * {
     margin: 0;
@@ -11,9 +12,10 @@
 :root{
     --font-text-01: 'DM Sans', sans-serif;
     --font-title: 'Roboto', sans-serif;
+    --font-destaque: 'Rubik', sans-serif;
     --body-color :  #9CD9CE;
     --title-color: #224D73;
-    --font-color:   #235B8C;
+    --font-color:   #224D73;
     --link-hover:   black;
     --input-text:   #F28E85;
 }
@@ -58,38 +60,40 @@ header {
 }
 
 .apresentacao{
-    text-align: center;
+/*    text-align: center;   */
     margin-top: 10rem;
-    
+    justify-content: first baseline;
 }
 
-.apresentacao h1 {
-
-    font-family: var(--font-title);
-    font-size: 4.3rem;
-    font-weight: 900;
+.apresentacao_nome {
+    font-family: var(--font-text-01);
+    font-size: 2.3rem;
+    font-weight: 1200;
     color: var(--title-color);
-    margin-bottom: 10%;
 }
 
-.apresentacao p {
+.apresentacao_texto {
     height: auto;
     margin: 0 auto;
-    font-size: 1.3rem;
+    font-size: 6rem;
     line-height: 130%;
     color: var(--font-color);
-    text-align: justify;
+    text-align: left;
+}
+
+.apresentacao_texto span{
+    font-family: var(--font-destaque);
 }
 
 .redes_sociais{
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .redes_sociais img {
     height: 7vh;
     margin: 10px;
-    filter: invert(95%);
+    filter: invert(100%);
 }
 
 .redes_sociais a:hover{
@@ -100,13 +104,18 @@ header {
 
 .scroll{
     margin-top: 10%;
+    height: 130px;  
+}
+
+.scroll img{
+    margin-top: 8px;
 }
 
 .move_scroll{
     align-items: center;
     justify-content: center;
-    filter: invert(80%);
-    animation: move_scroll_header 1.5s linear infinite;
+    filter: invert(100%);  
+    animation: move_scroll_header 2.15s infinite alternate;
     animation-delay: 500ms;
 }
 
@@ -133,7 +142,6 @@ header {
 #menu{
     display: flex;
     gap: .5rem;
-
 }
 
 #menu a{
@@ -141,6 +149,7 @@ header {
     padding: 1rem;
     font-weight: 700;
     font-size: 1.3rem;
+    color: white;
 }
 
 #menu a:hover{
@@ -150,6 +159,7 @@ header {
 
 #btn-mobile{
     display: none;
+    color: white;
 }
 
 
@@ -192,7 +202,7 @@ section{
 }
 
 .cartao:hover{
-    border: solid 2px #e5d5d5dc;
+    border: solid 2px var(--font-color);
 }
 
 .img_projetos{
@@ -334,7 +344,7 @@ fieldset button:hover{
     }
 
     100%{
-        transform: translateY(10px);
+        transform: translateY(80px);
     }
 }
 
@@ -414,5 +424,14 @@ fieldset button:hover{
     nav.active #hamburger::after{
         transform: rotate(-135deg);
         top: -7px;
+    }
+
+    .apresentacao_nome {
+        font-size: 1.8rem;
+    }
+    
+    .apresentacao_texto {
+        font-size: 2.5rem;
+        margin-bottom: 100px;
     }
 }
