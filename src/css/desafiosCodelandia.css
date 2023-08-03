@@ -13,11 +13,11 @@
 }
 
 .desafios_codelandia p a{
-    color: #b9bec9;
+    color: #ffffff;
     margin: 0;
 }
 
 .desafios_codelandia p a:hover{
-    color: #ffffff;
+    color: #000000;
 
 }
