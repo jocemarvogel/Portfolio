@@ -14,6 +14,7 @@
 
 .desafios_codelandia p a{
     color: #b9bec9;
+    margin: 0;
 }
 
 .desafios_codelandia p a:hover{

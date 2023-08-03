@@ -53,15 +53,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .apresentacao{
     text-align: center;
     margin-top: 10rem;
-    width: 80%;
+    
 }
 
 .apresentacao h1 {
+
     font-family: var(--font-title);
     font-size: 4.3rem;
     font-weight: 900;
@@ -72,7 +75,7 @@ header {
 .apresentacao p {
     height: auto;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 130%;
     color: var(--font-color);
     text-align: justify;
@@ -80,7 +83,7 @@ header {
 
 .redes_sociais{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .redes_sociais img {
@@ -95,8 +98,11 @@ header {
     border-radius: 3px;
 }
 
+.scroll{
+    margin-top: 10%;
+}
+
 .move_scroll{
-    margin-top: 3rem;
     align-items: center;
     justify-content: center;
     filter: invert(80%);
@@ -207,10 +213,12 @@ section{
 
 .texto h3{
     font-size: 2.3rem;
+    height: 80px;
+    
 }
 
 .texto p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     width: 300px;
     height: 80px;
     overflow:hidden;
