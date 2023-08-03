@@ -87,7 +87,7 @@ header {
 
 .redes_sociais{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .redes_sociais img {
@@ -103,12 +103,12 @@ header {
 }
 
 .scroll{
-    margin-top: 10%;
+    margin-top: 5%;
     height: 130px;  
 }
 
 .scroll img{
-    margin-top: 8px;
+    margin-top: 5%;
 }
 
 .move_scroll{
